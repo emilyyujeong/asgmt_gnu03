@@ -68,75 +68,39 @@
             </div>
         </header>
         <div class="sub">
-            <h2>MENU</h2>
-            <p>영양이 풍부한 재료로 꽉 채운 건강한 한 끼,<br />
-                EGGDROP의 메뉴를 소개합니다</p>
+            <h2>STORE</h2>
+            <p>전국에서 신선한 에그드랍을 경험할 수 있습니다.<br />
+                주변의 가까운 매장을 검색해 보세요</p>
             <div class="inner">
-                <div class="sub_video">
-                    <iframe width="960" height="500" src="https://www.youtube.com/embed/6EbGVp_0vQw"
-                        title="에그드랍 셰프님들이 말하는 ‘길거리 토스트’ 비하인드 스토리  |  에그드랍 피플(EGGDROP PEOPLE)" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                <div class="list_map">
+                    <div class="map">
+                        <!-- * 카카오맵 - 지도퍼가기 -->
+                        <!-- 1. 지도 노드 -->
+                        <div id="daumRoughmapContainer1675063661056"
+                            class="root_daum_roughmap root_daum_roughmap_landing">
+                        </div>
+
+                        <!--
+2. 설치 스크립트
+* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+-->
+                        <script charset="UTF-8" class="daum_roughmap_loader_script"
+                            src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                        <!-- 3. 실행 스크립트 -->
+                        <script charset="UTF-8">
+                            new daum.roughmap.Lander({
+                                "timestamp": "1675063661056",
+                                "key": "2djy9",
+                                "mapWidth": "1200",
+                                "mapHeight": "450"
+                            }).render();
+                        </script>
+                    </div>
                 </div>
-                <ul class="sub_cate">
-                    <li><a href="">NEW</a></li>
-                    <li><a href="">EGG DROP'S CHOICE</a></li>
-                    <li><a href="">SANDWICH</a></li>
-                    <li><a href="">SIDE</a></li>
-                    <li><a href="">DRINK</a></li>
-                </ul>
-                <div class="sub_banner">
-                    <img src="/img/sub_slide01.png" alt="">
-                </div>
-
-                <div class="sub_itm">
-                    <figure>
-                        <div class="img_box">
-                            <img src="/img/sub_menu01_name.png" alt="">
-                            <img src="/img/sub_menu01.png" alt="">
-                            <div class="ht">해쉬 브라운</div>
-                        </div>
-                    </figure>
-                    <figure>
-                        <div class="img_box">
-                            <img src="/img/sub_menu02_name.png" alt="">
-                            <img src="/img/sub_menu02.png" alt="">
-                            <div class="ht">해쉬 브라운</div>
-                        </div>
-                    </figure>
-                    <figure>
-                        <div class="img_box">
-                            <img src="/img/sub_menu03_name.png" alt="">
-                            <img src="/img/sub_menu03.png" alt="">
-                            <div class="ht">해쉬 브라운</div>
-                        </div>
-                    </figure>
-                    <figure>
-                        <div class="img_box">
-                            <img src="/img/sub_menu01_name.png" alt="">
-                            <img src="/img/sub_menu01.png" alt="">
-                            <div class="ht">해쉬 브라운</div>
-                        </div>
-                    </figure>
-                    <figure>
-                        <div class="img_box">
-                            <img src="/img/sub_menu02_name.png" alt="">
-                            <img src="/img/sub_menu02.png" alt="">
-                            <div class="ht">해쉬 브라운</div>
-                        </div>
-                    </figure>
-                    <figure>
-                        <div class="img_box">
-                            <img src="/img/sub_menu03_name.png" alt="">
-                            <img src="/img/sub_menu03.png" alt="">
-                            <div class="ht">해쉬 브라운</div>
-                        </div>
-                    </figure>
-                </div>
-
-
-
             </div>
+
+
         </div>
 
         <footer class="footer">

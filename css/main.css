@@ -268,9 +268,47 @@ h6 {
 
 
 .newProduct {
-    padding: 50px 0;
+    padding: 50px 0 100px 0;
     background: #f0ffaa;
 }
+
+.newProduct .object {
+    display: block;
+    text-align: center;
+    transform: rotate(2.25459deg);
+}
+
+
+
+.newProduct .object span {
+
+    background-image: url(../img/img_main_new_1.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+
+    position: absolute;
+    top: -40px;
+    left: 40%;
+    z-index: 10;
+    width: 500px;
+    height: 500px;
+    margin-left: 540px;
+    -webkit-animation: object 8s linear infinite;
+
+    animation: object 8s linear infinite;
+}
+
+@keyframes object {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
 
 .newProduct h2 {
     padding: 30px 0 100px 0;
@@ -309,18 +347,24 @@ h6 {
 
 .newProduct .right {
     vertical-align: middle;
+
+}
+
+.newProduct .right figure {
+    position: relative;
+    z-index: 999;
 }
 
 
 
-
+/* Egg makes Better / eat section 시작 */
 
 
 .eat {
     padding: 100px 0;
     background-image: url(../img/img_better.jpg);
     background-repeat: no-repeat;
-    background-position: left -500%;
+    background-position: left -600%;
 }
 
 .eat h2 {
@@ -355,16 +399,22 @@ h6 {
 }
 
 
+/* Notice section 시작 */
 
 
 .notice {
     padding: 100px 0;
-
+    background: #d8e9f5;
 }
 
 .notice h2 {
     font-size: 40px;
     font-weight: 500;
+
+}
+
+.notice h3 {
+    padding: 10px 0 30px 0;
 }
 
 .notice .inner {
@@ -377,8 +427,34 @@ h6 {
     line-height: 50px;
 }
 
+.notice .left a {
+
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
 .notice .right {
     flex: 1;
+    line-height: 50px;
+}
+
+.notice .right .list a {
+    display: block;
+    max-width: 480px;
+    height: 58px;
+    line-height: 58px;
+    padding: 0 20px 0 5px;
+    border-bottom: 1px solid #333;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.notice .right .list>li {
+    font-size: 18px;
 }
 
 
@@ -409,15 +485,20 @@ h6 {
     gap: 10px;
 }
 
+
+
+/* footer 시작 */
+
 .footer {
     padding: 50px 0;
-    height: 200px;
-    background: #333;
+    background: #010101;
     color: #fff;
 }
 
 .footer .inner {
     display: flex;
+    gap: 30px;
+    line-height: 30px;
 
 }
 
@@ -427,4 +508,465 @@ h6 {
 
 .footer .right {
     flex: 1;
+}
+
+.footer .right .rules {
+    position: relative;
+    display: flex;
+
+    padding-bottom: 30px;
+}
+
+.footer .right .rules>li {
+    margin-right: 15px;
+}
+
+.footer .rules li~li::before {
+    content: "";
+    display: inline-block;
+    margin: 0 10px 0 7px;
+
+    height: 15px;
+    width: 1px;
+    background: #fff;
+
+}
+
+.sns_ico {
+    text-align: end;
+    font-size: 24px;
+    padding: 0 15px;
+}
+
+
+/* Sub page 시작 */
+/* sub01  - menu */
+
+.sub h2 {
+    margin: 35px 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.sub p {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sub .inner {
+    text-align: center;
+}
+
+.sub_cate {
+    display: flex;
+    margin: 50px 0 30px 0;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px 0 30px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sub_itm {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.sub_itm figure {}
+
+.sub_itm .ht {
+    font-size: 14px;
+    color: #333;
+    padding: 10px 10px;
+
+}
+
+.sub_itm img {
+    width: 70%;
+}
+
+
+/* sub02  - map */
+
+
+/* sub03  - about */
+/* sub03  - about01 - brand info*/
+
+.sub h3 {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+.sub h3 strong {
+    font-weight: 800;
+}
+
+.sub h4 {
+    margin: 30px 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.sub03_cate {
+    display: flex;
+    gap: 200px;
+    margin: 90px 0 70px 0;
+    justify-content: center;
+
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.sub_brand_img {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.sub_brand_img .tit {
+    position: absolute;
+    text-align: start;
+    padding-left: 10px;
+    top: 80%;
+
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+}
+
+/* sub03  - about - brand id */
+
+.sub_brand_id h2 {
+    margin: 100px 0 50px 0;
+}
+
+.sub_video {
+    text-align: center;
+}
+
+.sub_video video {
+    width: 1200px;
+}
+
+/* sub03  - about - brand logo */
+
+
+.sub_logo_imgs {
+    display: flex;
+    gap: 30px;
+
+}
+
+.sub_logo_imgs .name {
+    text-align: start;
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sub_logo_imgs img {
+    border: 1px solid #ddd;
+}
+
+.sub_logo_imgs .white {
+    background: #010101;
+}
+
+.sub_dw {
+    display: inline-block;
+    margin: 50px 0;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 25px;
+
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.sub_dw:hover {
+    background: #ea0029;
+    border: 1px solid #fff;
+    color: #fff;
+
+
+}
+
+/* sub03  - about - brand color */
+
+.sub_color {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-top: 2px solid #010101;
+    border-bottom: 2px solid #010101;
+}
+
+.sub_color h3 {
+    font-weight: 500;
+    padding: 50px 0 30px 0;
+}
+
+/* sub03 - about02 - notice */
+
+.notice_list img {
+    width: 100%;
+}
+
+.notice_list {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* sub03 - about03 - history */
+.history img {
+    width: 100%;
+}
+
+.history {
+    margin: 50px 0;
+    text-align: center;
+}
+
+
+
+/* sub04-1 CONTACT - FAQ */
+
+
+
+
+.sub04_cate {
+    display: flex;
+    gap: 200px;
+    margin: 90px 0 70px 0;
+    justify-content: center;
+
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#acd_wrap {
+    margin: 50px 0;
+}
+
+
+.que:first-child {
+    border-top: 1px solid #010101;
+}
+
+.que {
+    position: relative;
+    padding: 17px 0;
+    cursor: pointer;
+    font-size: 18px;
+    border-bottom: 1px solid #010101;
+
+    text-align: start;
+}
+
+.que::before {
+    display: inline-block;
+    content: 'Q';
+    font-size: 24px;
+    color: #ea0029;
+    margin: 0 5px;
+}
+
+.que.on>span {
+    font-weight: 700;
+    color: #ea0029;
+}
+
+.anw {
+    display: none;
+    overflow: hidden;
+    font-size: 18px;
+    background: #f7f7f7;
+    padding: 27px 0;
+
+    text-align: start;
+}
+
+.anw::before {
+    display: inline-block;
+    content: 'A';
+    font-size: 24px;
+    font-weight: 700;
+    color: #666;
+    margin: 0 5px;
+}
+
+.arrow-wrap {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+}
+
+.que .arrow-top {
+    display: none;
+}
+
+.que .arrow-bottom {
+    display: block;
+}
+
+.que.on .arrow-bottom {
+    display: none;
+}
+
+.que.on .arrow-top {
+    display: block;
+}
+
+/* sub04-1 CONTACT - 고객문의 */
+
+.b_info {
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 2px solid #010101;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.bold {
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.ess {
+    color: #ea0029;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 30px;
+
+}
+
+form ul>li {
+    width: 100%;
+    border-bottom: 1px solid #333;
+    padding: 7px 0;
+    border: none;
+    background: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    appearance: none;
+}
+
+input[type="text"] {
+    float: right;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #666;
+    width: 600px;
+    padding-left: 5px;
+}
+
+
+input[type="radio"] {
+    margin-left: 45px;
+}
+
+
+
+
+textarea {
+    float: right;
+    padding: 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    width: 600px;
+
+}
+
+input[type=submit] {
+    margin: 170px auto 50px auto;
+
+    border: none;
+    padding: 10px 20px;
+    border: 1px solid #010101;
+    border-radius: 30px;
+    background: none;
+}
+
+
+input[type=submit]:hover {
+    border: 1px solid #ea0029;
+    background: #ea0029;
+    color: #fff;
+
+}
+
+#container {
+    width: 800px;
+
+    padding: 20px 40px;
+    margin: 0 auto;
+
+    text-align: start;
+}
+
+#container strong {
+    display: flex;
+}
+
+fieldset {
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+#container li {
+    line-height: 30px;
+}
+
+
+/* totop button */
+
+.toTop {
+    position: fixed;
+    display: block;
+
+    bottom: 350px;
+    right: 300px;
+
+
+    width: 30px;
+    padding-top: 25px;
+    /* background: #fff; */
+    background: url(../img/icon_top.svg) no-repeat 50% 5px;
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    z-index: 1000;
+
+
+    cursor: pointer;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.toTop.on {
+    opacity: 1;
+    visibility: visible;
 }

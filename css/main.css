@@ -495,7 +495,9 @@ h6 {
     color: #fff;
 }
 
-.footer .inner {
+.footer .f_inner {
+    width: 1200px;
+    margin: 0 auto;
     display: flex;
     gap: 30px;
     line-height: 30px;
@@ -570,6 +572,15 @@ h6 {
     font-weight: 500;
 }
 
+
+/* 
+.sub_cate ul>li.on>a {
+    background: #c40f39;
+    color: #fff;
+}
+ */
+
+
 .sub_itm {
     margin-top: 50px;
     display: grid;
@@ -623,6 +634,11 @@ h6 {
     font-weight: 500;
 }
 
+/* 
+.sub03_cate li.on>a {
+    background: #c40f39;
+    color: #fff;
+} */
 
 .sub_brand_img {
     position: relative;
@@ -754,8 +770,15 @@ h6 {
     font-weight: 500;
 }
 
+
+.sub04_cate li.on>a {
+    background: #c40f39;
+    color: #fff;
+}
+
 #acd_wrap {
     margin: 50px 0;
+    background: #fff;
 }
 
 
@@ -912,7 +935,7 @@ input[type=submit]:hover {
 
 }
 
-#container {
+#cscs {
     width: 800px;
 
     padding: 20px 40px;
@@ -921,7 +944,7 @@ input[type=submit]:hover {
     text-align: start;
 }
 
-#container strong {
+#cscs strong {
     display: flex;
 }
 
@@ -933,7 +956,7 @@ legend {
     font-weight: bold;
 }
 
-#container li {
+#cscs li {
     line-height: 30px;
 }
 
@@ -944,20 +967,20 @@ legend {
     position: fixed;
     display: block;
 
-    bottom: 350px;
-    right: 300px;
+    bottom: 50px;
+    right: 100px;
 
 
-    width: 30px;
-    padding-top: 25px;
-    /* background: #fff; */
-    background: url(../img/icon_top.svg) no-repeat 50% 5px;
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px;
+    background: #fff;
+    border-radius: 50%;
     color: #000;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
+    text-align: center;
+    vertical-align: middle;
     z-index: 1000;
-
+    border: 1px solid #ddd;
 
     cursor: pointer;
 

@@ -1,0 +1,85 @@
+<?
+include '../../../common.php';
+include_once(G5_THEME_PATH.'/head.php');
+?>
+
+
+<div class="content">
+                          
+                            <div class="sub">
+            <h2>MENU</h2>
+            <p>영양이 풍부한 재료로 꽉 채운 건강한 한 끼,<br />
+                EGGDROP의 메뉴를 소개합니다</p>
+            <div class="inner">
+                <div class="sub_video">
+                    <iframe width="960" height="500" src="https://www.youtube.com/embed/6EbGVp_0vQw"
+                        title="에그드랍 셰프님들이 말하는 ‘길거리 토스트’ 비하인드 스토리  |  에그드랍 피플(EGGDROP PEOPLE)" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <ul class="sub_cate">
+                    <li><a href="">NEW</a></li>
+                    <li><a href="">EGG DROP'S CHOICE</a></li>
+                    <li><a href="">SANDWICH</a></li>
+                    <li><a href="">SIDE</a></li>
+                    <li><a href="">DRINK</a></li>
+                </ul>
+                <div class="sub_banner">
+                    <img src="<?= G5_THEME_URL ?>/img/sub_slide01.png" alt="">
+                </div>
+
+                <div class="sub_itm">
+                    <figure>
+                        <div class="img_box">
+                            <img src="<?= G5_THEME_URL ?>/img/sub_menu01_name.png" alt="">
+                            <img src="<?= G5_THEME_URL ?>/img/sub_menu01.png" alt="">
+                            <div class="ht">해쉬 브라운</div>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class="img_box">
+                            <img src="<?= G5_THEME_URL ?>/img/sub_menu02_name.png" alt="">
+                            <img src="<?= G5_THEME_URL ?>/img/sub_menu02.png" alt="">
+                            <div class="ht">해쉬 브라운</div>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class="img_box">
+                            <img src="<?= G5_THEME_URL ?>/img/sub_menu03_name.png" alt="">
+                            <img src="<?= G5_THEME_URL ?>/img/sub_menu03.png" alt="">
+                            <div class="ht">해쉬 브라운</div>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class="img_box">
+                            <img src="<?= G5_THEME_URL ?>/img/sub_menu01_name.png" alt="">
+                            <img src="<?= G5_THEME_URL ?>/img/sub_menu01.png" alt="">
+                            <div class="ht">해쉬 브라운</div>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class="img_box">
+                            <img src="<?= G5_THEME_URL ?>/img/sub_menu02_name.png" alt="">
+                            <img src="<?= G5_THEME_URL ?>/img/sub_menu02.png" alt="">
+                            <div class="ht">해쉬 브라운</div>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class="img_box">
+                            <img src="<?= G5_THEME_URL ?>/img/sub_menu03_name.png" alt="">
+                            <img src="<?= G5_THEME_URL ?>/img/sub_menu03.png" alt="">
+                            <div class="ht">해쉬 브라운</div>
+                        </div>
+                    </figure>
+                </div>
+
+
+
+            </div>
+        </div>
+                        </div>
+
+
+                        <?php
+include_once(G5_THEME_PATH.'/tail.php');
+?>

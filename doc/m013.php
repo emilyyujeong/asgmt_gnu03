@@ -18,55 +18,55 @@ include_once(G5_THEME_PATH.'/head.php');
                         allowfullscreen></iframe>
                 </div>
                 <ul class="sub_cate">
-                    <li class="highlight"><a href="<?= G5_THEME_URL ?>/doc/m011.php">NEW</a></li>
+                    <li><a href="<?= G5_THEME_URL ?>/doc/m011.php">NEW</a></li>
                     <li><a href="<?= G5_THEME_URL ?>/doc/m012.php">EGG DROP'S CHOICE</a></li>
-                    <li><a href="<?= G5_THEME_URL ?>/doc/m013.php">SANDWICH</a></li>
+                    <li class="highlight"><a href="<?= G5_THEME_URL ?>/doc/m013.php">SANDWICH</a></li>
                     <li><a href="<?= G5_THEME_URL ?>/doc/m011.php">SIDE</a></li>
                     <li><a href="<?= G5_THEME_URL ?>/doc/m011.php">DRINK</a></li>
                 </ul>
                 <div class="sub_banner">
-                    <img src="<?= G5_THEME_URL ?>/img/sub_slide02.png" alt="">
+                    <img src="<?= G5_THEME_URL ?>/img/sub_slide01.png" alt="">
                 </div>
                 <div class="sub_itm">
                     <figure>
                         <div class="img_box">
-                            <img src="<?= G5_THEME_URL ?>/img/sub_menu01_name.png" alt="">
-                            <div class="menu_img"><img src="<?= G5_THEME_URL ?>/img/sub_menu01.png" alt=""></div>
+                            <img src="<?= G5_THEME_URL ?>/img/sub_menu11_name.png" alt="">
+                            <div class="menu_img"><img src="<?= G5_THEME_URL ?>/img/sub_menu11.png" alt=""></div>
                             <div class="ht">해쉬 브라운</div>
                         </div>
                     </figure>
                     <figure>
                         <div class="img_box">
-                            <img src="<?= G5_THEME_URL ?>/img/sub_menu02_name.png" alt="">
-                            <div class="menu_img"><img src="<?= G5_THEME_URL ?>/img/sub_menu02.png" alt=""></div>
+                            <img src="<?= G5_THEME_URL ?>/img/sub_menu12_name.png" alt="">
+                            <div class="menu_img"><img src="<?= G5_THEME_URL ?>/img/sub_menu12.png" alt=""></div>
                             <div class="ht">레모네이드</div>
                         </div>
                     </figure>
                     <figure>
                         <div class="img_box">
-                            <img src="<?= G5_THEME_URL ?>/img/sub_menu03_name.png" alt="">
-                            <div class="menu_img"><img src="<?= G5_THEME_URL ?>/img/sub_menu03.png" alt=""></div>
+                            <img src="<?= G5_THEME_URL ?>/img/sub_menu13_name.png" alt="">
+                            <div class="menu_img"><img src="<?= G5_THEME_URL ?>/img/sub_menu13.png" alt=""></div>
                             <div class="ht">햄앤 치즈 길거리 토스트</div>
                         </div>
                     </figure>
                     <figure>
                         <div class="img_box">
-                            <img src="<?= G5_THEME_URL ?>/img/sub_menu04_name.png" alt="">
-                            <div class="menu_img"><img src="<?= G5_THEME_URL ?>/img/sub_menu04.png" alt=""></div>
+                            <img src="<?= G5_THEME_URL ?>/img/sub_menu14_name.png" alt="">
+                            <div class="menu_img"><img src="<?= G5_THEME_URL ?>/img/sub_menu14.png" alt=""></div>
                             <div class="ht">베이컨 체다 해쉬브라운</div>
                         </div>
                     </figure>
                     <figure>
                         <div class="img_box">
-                            <img src="<?= G5_THEME_URL ?>/img/sub_menu05_name.png" alt="">
-                            <div class="menu_img"><img src="<?= G5_THEME_URL ?>/img/sub_menu05.png" alt=""></div>
+                            <img src="<?= G5_THEME_URL ?>/img/sub_menu15_name.png" alt="">
+                            <div class="menu_img"><img src="<?= G5_THEME_URL ?>/img/sub_menu15.png" alt=""></div>
                             <div class="ht">자몽에이드</div>
                         </div>
                     </figure>
                     <figure>
                         <div class="img_box">
-                            <img src="<?= G5_THEME_URL ?>/img/sub_menu06_name.png" alt="">
-                            <div class="menu_img"><img src="<?= G5_THEME_URL ?>/img/sub_menu06.png" alt=""></div>
+                            <img src="<?= G5_THEME_URL ?>/img/sub_menu16_name.png" alt="">
+                            <div class="menu_img"><img src="<?= G5_THEME_URL ?>/img/sub_menu16.png" alt=""></div>
                             <div class="ht">치즈 불고기 길거리 토스트</div>
                         </div>
                     </figure>

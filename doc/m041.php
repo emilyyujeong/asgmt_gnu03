@@ -17,8 +17,8 @@ include_once(G5_THEME_PATH.'/head.php');
             <div class="inner">
 
                 <ul class="sub04_cate">
-                    <li class="a"><a href="<?= G5_THEME_URL ?>/doc/m041.php">FAQ</a></li>
-                    <li class="a"><a href="<?= G5_THEME_URL ?>/doc/m042.php">고객문의</a></li>
+                    <li class="highlight"><a href="<?= G5_THEME_URL ?>/doc/m041.php">FAQ</a></li>
+                    <li class=""><a href="<?= G5_THEME_URL ?>/doc/m042.php">고객문의</a></li>
                 </ul>
 
                 <div id="acd_wrap">

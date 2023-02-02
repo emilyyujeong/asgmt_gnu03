@@ -17,9 +17,9 @@ include_once(G5_THEME_PATH.'/head.php');
             <div class="inner">
                 <div class="sub_brand_info">
                     <ul class="sub03_cate">
-                        <li class="a"><a href="<?= G5_THEME_URL ?>/doc/m031.php">BRAND</a></li>
-                        <li class="a"><a href="<?= G5_THEME_URL ?>/doc/m032.php">NOTICE</a></li>
-                        <li class="a"><a href="<?= G5_THEME_URL ?>/doc/m033.php">HISTORY</a></li>
+                        <li class="highlight"><a href="<?= G5_THEME_URL ?>/doc/m031.php">BRAND</a></li>
+                        <li class=""><a href="<?= G5_THEME_URL ?>/doc/m032.php">NOTICE</a></li>
+                        <li class=""><a href="<?= G5_THEME_URL ?>/doc/m033.php">HISTORY</a></li>
                     </ul>
                     <h3><img src="<?= G5_THEME_URL ?>/img/h_main.png" alt=""></h3>
                     <h4>일상의 수준을 높이다</h4>
@@ -33,17 +33,17 @@ include_once(G5_THEME_PATH.'/head.php');
                         일상 속에서 만나보세요.
                     </p>
                     <div class="sub_brand_img">
-                        <figure data-aos="fade-up">
+                        <figure data-aos="fade-up" class="aos-init aos-animate">
                             <img src="<?= G5_THEME_URL ?>/img/sub03_intro_1.jpg" alt="">
                             <div class="tit">건강을 생각한<br />
                                 맛있는 음식</div>
                         </figure>
-                        <figure data-aos="fade-up" data-aos-delay="300">
+                        <figure data-aos="fade-up" data-aos-delay="300" class="aos-init aos-animate">
                             <img src="<?= G5_THEME_URL ?>/img/sub03_intro_2.jpg" alt="">
                             <div class="tit">엄격한 품질 관리와<br />
                                 창의적인 메뉴</div>
                         </figure>
-                        <figure data-aos="fade-up" data-aos-delay="600">
+                        <figure data-aos="fade-up" data-aos-delay="600" class="aos-init aos-animate">
                             <img src="<?= G5_THEME_URL ?>/img/sub03_intro_3.jpg" alt="">
                             <div class="tit">아메리칸 다이너를<br />
                                 모티브로 한 공간</div>

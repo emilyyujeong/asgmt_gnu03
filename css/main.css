@@ -200,6 +200,7 @@ h6 {
 }
 
 .mainProduct {
+    position: relative;
     padding: 100px 0;
     text-align: center;
 }
@@ -219,6 +220,10 @@ h6 {
     font-size: 20px;
 }
 
+.mainProduct ul>li a:hover {
+    color: #ea0029;
+}
+
 .main_pro_slide {
     display: flex;
     gap: 15px;
@@ -236,11 +241,25 @@ h6 {
     background: #f2d5b5;
 }
 
-.main_pro_slide figure {
-    position: relative;
-    width: 270px;
-    height: 500px;
-    background: /
+
+.mainProduct .arrows i {
+    position: absolute;
+    left: 85%;
+    top: 58%;
+
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    padding: 15px;
+    color: #333;
+}
+
+
+.mainProduct .arrows i:first-child {
+    margin: 0 0 0 -1300px;
+}
+
+.mainProduct.arrows i:last-child {
+    margin: 0 0 0 1300px;
 }
 
 .main_pro_slide h3 {
@@ -340,9 +359,16 @@ h6 {
 .newProduct .left a {
     display: inline-block;
     padding: 10px 20px;
-    border: 1px solid #333;
-    border-radius: 10px;
+    border: 1px solid #010101;
+    border-radius: 30px;
 
+}
+
+
+.newProduct .left a:hover {
+    border: 1px solid #ea0029;
+    background: #ea0029;
+    color: #fff;
 }
 
 .newProduct .right {
@@ -361,6 +387,7 @@ h6 {
 
 
 .eat {
+    margin-bottom: 100px;
     padding: 100px 0;
     background-image: url(../img/img_better.jpg);
     background-repeat: no-repeat;
@@ -394,10 +421,15 @@ h6 {
 
 .eat .inner a {
     padding: 10px 20px;
-    border: 1px solid #333;
-    border-radius: 10px;
+    border: 1px solid #010101;
+    border-radius: 30px;
 }
 
+.eat .inner a:hover {
+    border: 1px solid #ea0029;
+    background: #ea0029;
+    color: #fff;
+}
 
 /* Notice section 시작 */
 
@@ -506,6 +538,7 @@ h6 {
 
 .footer .left {
     flex: 1;
+    line-height: 35px;
 }
 
 .footer .right {
@@ -564,25 +597,22 @@ h6 {
 
 .sub_cate {
     display: flex;
-    margin: 50px 0 30px 0;
+    margin: 50px auto 30px auto;
+    width: 1000px;
     justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
     padding: 30px 0 30px 0;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
 }
 
-
-/* 
-.sub_cate ul>li.on>a {
-    background: #c40f39;
-    color: #fff;
+.sub_cate a:hover {
+    color: #ea0029;
 }
- */
 
 
 .sub_itm {
-    margin-top: 50px;
+    margin-top: 70px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -591,9 +621,9 @@ h6 {
 .sub_itm figure {}
 
 .sub_itm .ht {
-    font-size: 14px;
+    font-size: 18px;
     color: #333;
-    padding: 10px 10px;
+    padding: 50px 10px;
 
 }
 
@@ -601,9 +631,15 @@ h6 {
     width: 70%;
 }
 
+.menu_img {
+    margin-top: -50px;
+}
 
 /* sub02  - map */
 
+.map {
+    margin-bottom: 50px;
+}
 
 /* sub03  - about */
 /* sub03  - about01 - brand info*/
@@ -628,17 +664,19 @@ h6 {
     display: flex;
     gap: 200px;
     margin: 90px 0 70px 0;
+
     justify-content: center;
 
     font-size: 24px;
     font-weight: 500;
 }
 
-/* 
-.sub03_cate li.on>a {
-    background: #c40f39;
-    color: #fff;
-} */
+
+.sub03_cate a:hover {
+    color: #ea0029;
+}
+
+
 
 .sub_brand_img {
     position: relative;
@@ -666,16 +704,20 @@ h6 {
 
 .sub_video {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .sub_video video {
     width: 1200px;
+
 }
 
 /* sub03  - about - brand logo */
 
 
 .sub_logo_imgs {
+    padding-top: 50px;
+    border-top: 2px solid #010101;
     display: flex;
     gap: 30px;
 
@@ -726,6 +768,7 @@ h6 {
 }
 
 .sub_color h3 {
+    font-size: 26px;
     font-weight: 500;
     padding: 50px 0 30px 0;
 }
@@ -761,6 +804,7 @@ h6 {
 
 
 .sub04_cate {
+
     display: flex;
     gap: 200px;
     margin: 90px 0 70px 0;
@@ -770,11 +814,20 @@ h6 {
     font-weight: 500;
 }
 
-
-.sub04_cate li.on>a {
-    background: #c40f39;
-    color: #fff;
+.sub04_cate a:hover {
+    color: #ea0029;
 }
+
+
+.highlight {
+    color: #ea0029;
+}
+
+.sub04_cate li>a {
+    position: relative;
+}
+
+
 
 #acd_wrap {
     margin: 50px 0;
@@ -851,6 +904,7 @@ h6 {
     display: block;
 }
 
+
 /* sub04-1 CONTACT - 고객문의 */
 
 .b_info {
@@ -900,12 +954,25 @@ input[type="text"] {
     padding-left: 5px;
 }
 
+label[for="user_tel"]::after {
+    content: "*";
+    color: #ea0029;
+}
+
+label[for="user_name"]::after {
+    content: "*";
+    color: #ea0029;
+}
+
+.essen::after {
+    content: "*";
+    color: #ea0029;
+}
+
 
 input[type="radio"] {
     margin-left: 45px;
 }
-
-
 
 
 textarea {
@@ -918,7 +985,7 @@ textarea {
 }
 
 input[type=submit] {
-    margin: 170px auto 50px auto;
+    margin: 0 auto 50px auto;
 
     border: none;
     padding: 10px 20px;
@@ -933,6 +1000,11 @@ input[type=submit]:hover {
     background: #ea0029;
     color: #fff;
 
+}
+
+.submit {
+    margin: 30px 0 0 300px;
+    font-size: 21px;
 }
 
 #cscs {

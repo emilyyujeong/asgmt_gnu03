@@ -40,7 +40,7 @@ include_once(G5_THEME_PATH.'/head.php');
             </div>
             <div class="inner">
                 <div class="sc_icon">
-                    <div data-aos="fade-up">
+                    <div data-aos="fade-up" class="aos-init aos-animate">
                         <a href="#l01">SCROLL DOWN</a>
                         <div class="icon">
                             <a href="#l01"><i class="xi-angle-up"></i></a>
@@ -54,11 +54,11 @@ include_once(G5_THEME_PATH.'/head.php');
             <div class="inner">
                 <h2>MENU</h2>
                 <ul>
-                    <li><a href="">NEW</a></li>
-                    <li><a href="">EGG DROP'S CHOICE</a></li>
-                    <li><a href="">SANDWICH</a></li>
-                    <li><a href="">SIDE</a></li>
-                    <li><a href="">DRINK</a></li>
+                    <li class="highlight"><a href="<?= G5_THEME_URL ?>/doc/m011.php">NEW</a></li>
+                    <li><a href="<?= G5_THEME_URL ?>/doc/m012.php">EGG DROP'S CHOICE</a></li>
+                    <li><a href="<?= G5_THEME_URL ?>/doc/m013.php">SANDWICH</a></li>
+                    <li><a href="<?= G5_THEME_URL ?>/doc/m011.php">SIDE</a></li>
+                    <li><a href="<?= G5_THEME_URL ?>/doc/m011.php">DRINK</a></li>
                 </ul>
                 <div class="main_pro_slide">
                     <div class="new_itm">
@@ -82,7 +82,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
                         </figure>
                     </div>
-
+                    
 
 
                     <div class="new_itm">
@@ -179,6 +179,11 @@ include_once(G5_THEME_PATH.'/head.php');
 
 
                 </div>
+                <div class="arrows">
+                        <i class="xi-angle-left"></i>
+                        <i class="xi-angle-right"></i>
+                    </div>
+
             </div>
         </section>
 
@@ -198,7 +203,7 @@ include_once(G5_THEME_PATH.'/head.php');
                         <p>양상추, 베이컨, 토마토와 에그드랍의
                             특제 소스가 어우러진 <br />
                             베이직한 클럽 샌드위치</p>
-                        <a href="">자세히 보기 <i class="xi-arrow-right"></i></a>
+                        <a href="<?= G5_THEME_URL ?>/doc/m011.php">자세히 보기 <i class="xi-arrow-right"></i></a>
                     </div>
 
                     <div class="right">
@@ -230,11 +235,11 @@ include_once(G5_THEME_PATH.'/head.php');
                     업그레이드 된 계란 샌드위치라는<br />
                     카테고리를 새롭게 창조하였습니다.
                 </p>
-                <a href="">브랜드 스토리 <i class="xi-arrow-right"></i></a>
+                <a href="<?= G5_THEME_URL ?>/doc/m031.php">브랜드 스토리 <i class="xi-arrow-right"></i></a>
             </div>
         </section>
 
-        <section class="notice">
+        <!-- <section class="notice">
 
 
             <div class="inner">
@@ -257,7 +262,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
 
 
-        </section>
+        </section> -->
 
         <section class="sns">
             <h2>FLLOW US</h2>
@@ -302,14 +307,6 @@ include_once(G5_THEME_PATH.'/head.php');
  </main>
 
 
-
-
-
-
-
- <script>
-        AOS.init();
-    </script>
 
 
 

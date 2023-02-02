@@ -16,8 +16,8 @@ include_once(G5_THEME_PATH.'/head.php');
             <div class="inner">
 
                 <ul class="sub04_cate">
-                <li class="a"><a href="<?= G5_THEME_URL ?>/doc/m041.php">FAQ</a></li>
-                    <li class="a"><a href="<?= G5_THEME_URL ?>/doc/m042.php">고객문의</a></li>
+                <li class=""><a href="<?= G5_THEME_URL ?>/doc/m041.php">FAQ</a></li>
+                <li class="highlight"><a href="<?= G5_THEME_URL ?>/doc/m042.php">고객문의</a></li>
                 </ul>
                 <p class="cs">
                     자주 묻는 질문을 통해 더욱 빠르게 답변을 확인하실 수 있습니다.<br />
@@ -33,27 +33,27 @@ include_once(G5_THEME_PATH.'/head.php');
                         </div>
                         <ul>
                             <li>
-                                <label for="user_name">이름*</label>
+                                <label for="user_name">이름</label>
                                 <input type="text" id="user_name" placeholder="" autofocus>
                             </li>
                             <li>
-                                <label for="user_tel">연락처*</label>
+                                <label for="user_tel">연락처</label>
                                 <input type="text" id="user_tel">
                             </li>
                             <li>
-                                <label for="user_tel">이메일*</label>
+                                <label for="user_mail">이메일</label>
                                 <input type="text" id="user_mail">
                             </li>
                         </ul>
                         <ul>
                             <li>
-                                <span>문의 유형*</span>
+                                <span class="essen">문의 유형</span>
                                 <label><input type="radio" name="field" value="branch"> 점포 제안</label>
                                 <label><input type="radio" name="field" value="partner"> 제휴 문의</label>
                                 <label><input type="radio" name="field" value="customer"> 고객 문의</label>
                             </li>
                         </ul>
-                        <span>문의 내용*</span>
+                        <span class="essen">문의 내용</span>
                         <textarea cols="100" rows="10" placeholder=""></textarea>
                         <div class="submit">
                             <input type='submit' value="접수하기">

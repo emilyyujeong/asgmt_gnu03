@@ -3,7 +3,7 @@ $(function () {
     $('.main_slide').slick({
         arrows: false,
         dots: true,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 4000,
         pauseOnHover: false,
         pauseOnFocus: false,
@@ -14,6 +14,13 @@ $(function () {
         slidesToShow: 4,
     });
 
+
+    $('.mainProduct .arrows i:nth-child(1)').on('click', function () {
+        $('.main_pro_slide').slick('slickPrev')
+    });
+    $('.mainProduct .arrows i:nth-child(2)').on('click', function () {
+        $('.main_pro_slide').slick('slickNext')
+    });
 
 
 
@@ -34,10 +41,6 @@ $(function () {
 
 
 
-
-
-
-    //* css 레이아웃 폴더에 hashlink파일 참고 해서 스크롤다운누르면 섹션 넘어가는거할려고했음;;................. */
     $(function () {
         $('.sc_icon a').on('click', function (e) {
             e.preventDefault();
@@ -63,7 +66,7 @@ $(function () {
 
 
 
-
+    AOS.init();
 
 
 

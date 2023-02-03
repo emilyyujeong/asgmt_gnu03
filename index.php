@@ -60,6 +60,8 @@ include_once(G5_THEME_PATH.'/head.php');
                     <li><a href="<?= G5_THEME_URL ?>/doc/m011.php">SIDE</a></li>
                     <li><a href="<?= G5_THEME_URL ?>/doc/m011.php">DRINK</a></li>
                 </ul>
+              
+
                 <div class="main_pro_slide">
                     <div class="new_itm">
                         <figure class="new">
@@ -67,13 +69,17 @@ include_once(G5_THEME_PATH.'/head.php');
                                 <h3>
                                     햄 앤 치즈 길거리 토스트 세트
                                 </h3>
-                                <span class="txt">
-                                    <img src="<?= G5_THEME_URL ?>/img/new_menu01_name.png" alt="">
-                                </span>
-                                <span class="img">
-                                    <img src="<?= G5_THEME_URL ?>/img/new_menu01_img.png" alt="">
-                                </span>
                                 <div data-aos="fade-up">
+                                    <span class="txt">
+                                        <img src="<?= G5_THEME_URL ?>/img/new_menu01_name.png" alt="">
+                                    </span>
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="300">
+                                    <span class="img">
+                                        <img src="<?= G5_THEME_URL ?>/img/new_menu01_img.png" alt="">
+                                    </span>
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="600">
                                     <span class="mark">
                                         <img src="<?= G5_THEME_URL ?>/img/new_menu01_icon.png" alt="">
                                     </span>
@@ -82,7 +88,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
                         </figure>
                     </div>
-                    
+
 
 
                     <div class="new_itm">
@@ -90,15 +96,19 @@ include_once(G5_THEME_PATH.'/head.php');
                         <figure>
                             <a href="">
                                 <h3>
-                                    아보카도 홀릭 세트
+                                    햄 앤 치즈 프렌치 토스트 세트
                                 </h3>
-                                <span class="txt">
-                                    <img src="<?= G5_THEME_URL ?>/img/new_menu02_name.png" alt="">
-                                </span>
-                                <span class="img">
-                                    <img src="<?= G5_THEME_URL ?>/img/new_menu02_img.png" alt="">
-                                </span>
                                 <div data-aos="fade-up">
+                                    <span class="txt">
+                                        <img src="<?= G5_THEME_URL ?>/img/new_menu02_name.png" alt="">
+                                    </span>
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="300">
+                                    <span class="img">
+                                        <img src="<?= G5_THEME_URL ?>/img/new_menu02_img.png" alt="">
+                                    </span>
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="600">
                                     <span class="mark">
                                         <img src="<?= G5_THEME_URL ?>/img/new_menu02_icon.png" alt="">
                                     </span>
@@ -113,15 +123,19 @@ include_once(G5_THEME_PATH.'/head.php');
                         <figure>
                             <a href="">
                                 <h3>
-                                    미스터 에그 세트
+                                    아보 베이컨 길거리 토스트 세트
                                 </h3>
-                                <span class="txt">
-                                    <img src="<?= G5_THEME_URL ?>/img/new_menu03_name.png" alt="">
-                                </span>
-                                <span class="img">
-                                    <img src="<?= G5_THEME_URL ?>/img/new_menu03_img.png" alt="">
-                                </span>
                                 <div data-aos="fade-up">
+                                    <span class="txt">
+                                        <img src="<?= G5_THEME_URL ?>/img/new_menu03_name.png" alt="">
+                                    </span>
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="300">
+                                    <span class="img">
+                                        <img src="<?= G5_THEME_URL ?>/img/new_menu03_img.png" alt="">
+                                    </span>
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="600">
                                     <span class="mark">
                                         <img src="<?= G5_THEME_URL ?>/img/new_menu03_icon.png" alt="">
                                     </span>
@@ -135,15 +149,19 @@ include_once(G5_THEME_PATH.'/head.php');
                         <figure>
                             <a href="">
                                 <h3>
-                                    데리야키 비비큐 세트
+                                    베이컨 딥 치즈 번 세트
                                 </h3>
-                                <span class="txt">
-                                    <img src="<?= G5_THEME_URL ?>/img/new_menu04_name.png" alt="">
-                                </span>
-                                <span class="img">
-                                    <img src="<?= G5_THEME_URL ?>/img/new_menu04_img.png" alt="">
-                                </span>
                                 <div data-aos="fade-up">
+                                    <span class="txt">
+                                        <img src="<?= G5_THEME_URL ?>/img/new_menu04_name.png" alt="">
+                                    </span>
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="300">
+                                    <span class="img">
+                                        <img src="<?= G5_THEME_URL ?>/img/new_menu04_img.png" alt="">
+                                    </span>
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="600">
                                     <span class="mark">
                                         <img src="<?= G5_THEME_URL ?>/img/new_menu04_icon.png" alt="">
                                     </span>
@@ -160,13 +178,17 @@ include_once(G5_THEME_PATH.'/head.php');
                                 <h3>
                                     베이컨 더블 치즈 세트
                                 </h3>
-                                <span class="txt">
-                                    <img src="<?= G5_THEME_URL ?>/img/new_menu05_name.png" alt="">
-                                </span>
-                                <span class="img">
-                                    <img src="<?= G5_THEME_URL ?>/img/new_menu05_img.png" alt="">
-                                </span>
                                 <div data-aos="fade-up">
+                                    <span class="txt">
+                                        <img src="<?= G5_THEME_URL ?>/img/new_menu05_name.png" alt="">
+                                    </span>
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="300">
+                                    <span class="img">
+                                        <img src="<?= G5_THEME_URL ?>/img/new_menu05_img.png" alt="">
+                                    </span>
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="600">
                                     <span class="mark">
                                         <img src="<?= G5_THEME_URL ?>/img/new_menu05_icon.png" alt="">
                                     </span>
@@ -179,7 +201,11 @@ include_once(G5_THEME_PATH.'/head.php');
 
 
                 </div>
-                <div class="arrows">
+
+                
+                
+                
+                    <div class="arrows">
                         <i class="xi-angle-left"></i>
                         <i class="xi-angle-right"></i>
                     </div>
@@ -285,19 +311,19 @@ include_once(G5_THEME_PATH.'/head.php');
                     <img src="<?= G5_THEME_URL ?>/img/sns05.jpg" alt="">
                 </figure>
                 <figure>
-                    <img src="<?= G5_THEME_URL ?>/img/sns01.jpg" alt="">
+                    <img src="<?= G5_THEME_URL ?>/img/sns06.jpg" alt="">
                 </figure>
                 <figure>
-                    <img src="<?= G5_THEME_URL ?>/img/sns02.jpg" alt="">
+                    <img src="<?= G5_THEME_URL ?>/img/sns07.jpg" alt="">
                 </figure>
                 <figure>
-                    <img src="<?= G5_THEME_URL ?>/img/sns03.jpg" alt="">
+                    <img src="<?= G5_THEME_URL ?>/img/sns08.jpg" alt="">
                 </figure>
                 <figure>
-                    <img src="<?= G5_THEME_URL ?>/img/sns04.jpg" alt="">
+                    <img src="<?= G5_THEME_URL ?>/img/sns09.jpg" alt="">
                 </figure>
                 <figure>
-                    <img src="<?= G5_THEME_URL ?>/img/sns05.jpg" alt="">
+                    <img src="<?= G5_THEME_URL ?>/img/sns10.png" alt="">
                 </figure>
             </div>
         </section>

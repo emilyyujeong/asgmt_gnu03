@@ -83,6 +83,7 @@ var g5_admin_url = "<?php echo G5_ADMIN_URL; ?>";
 </script>
 <?php
 add_javascript('<script src="'.G5_JS_URL.'/jquery-1.12.4.min.js"></script>', 0);
+add_javascript('<script src="'.G5_JS_URL.'/aos.js"></script>', 0);
 add_javascript('<script src="'.G5_JS_URL.'/jquery-migrate-1.4.1.min.js"></script>', 0);
 if (defined('_SHOP_')) {
     if(!G5_IS_MOBILE) {
@@ -108,7 +109,9 @@ if(!defined('G5_IS_ADMIN'))
 <link rel="stylesheet" href="<?php echo G5_THEME_URL; ?>/css/font.css">
 <link rel="stylesheet" href="<?php echo G5_THEME_URL; ?>/css/common.css">
 <link rel="stylesheet" href="<?php echo G5_THEME_URL; ?>/css/slick.css">
+<link rel="stylesheet" href="<?php echo G5_THEME_URL; ?>/css/aos.css">
 <link rel="stylesheet" href="<?php echo G5_THEME_URL; ?>/css/main.css">
+
 
 
 

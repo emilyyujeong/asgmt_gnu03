@@ -237,7 +237,7 @@ h6 {
 .main_pro_slide figure {
     position: relative;
     width: 270px;
-    height: 500px;
+    height: 470px;
     background: #f2d5b5;
 }
 
@@ -263,23 +263,23 @@ h6 {
 }
 
 .main_pro_slide h3 {
-    padding: 10px 0 30px 0;
+    padding: 20px 0 30px 0;
     text-align: center;
 
 }
 
 .main_pro_slide .img {
     position: absolute;
+    margin-top: -230px;
     width: 100%;
     left: 50%;
-    top: 10%;
     transform: translate(-50%, 50%);
 }
 
 .main_pro_slide .mark {
     position: absolute;
     width: 30%;
-    bottom: 50px;
+    bottom: 0;
     left: 20%;
     transform: translate(-50%, -50%);
 }

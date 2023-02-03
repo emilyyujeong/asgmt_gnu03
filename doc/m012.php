@@ -32,42 +32,42 @@ include_once(G5_THEME_PATH.'/head.php');
                         <div class="img_box">
                             <img src="<?= G5_THEME_URL ?>/img/new_menu01_name.png" alt="">
                             <div class="menu_img"><img src="<?= G5_THEME_URL ?>/img/new_menu01_img.png" alt=""></div>
-                            <div class="ht">해쉬 브라운</div>
+                            <div class="ht">미스터에그 세트</div>
                         </div>
                     </figure>
                     <figure>
                         <div class="img_box">
                             <img src="<?= G5_THEME_URL ?>/img/new_menu02_name.png" alt="">
                             <div class="menu_img"><img src="<?= G5_THEME_URL ?>/img/new_menu02_img.png" alt=""></div>
-                            <div class="ht">레모네이드</div>
+                            <div class="ht">아메리칸 햄 치즈 세트</div>
                         </div>
                     </figure>
                     <figure>
                         <div class="img_box">
                             <img src="<?= G5_THEME_URL ?>/img/new_menu03_name.png" alt="">
                             <div class="menu_img"><img src="<?= G5_THEME_URL ?>/img/new_menu03_img.png" alt=""></div>
-                            <div class="ht">햄앤 치즈 길거리 토스트</div>
+                            <div class="ht">베이컨 더블 치즈 세트</div>
                         </div>
                     </figure>
                     <figure>
                         <div class="img_box">
                             <img src="<?= G5_THEME_URL ?>/img/new_menu04_name.png" alt="">
                             <div class="menu_img"><img src="<?= G5_THEME_URL ?>/img/new_menu04_img.png" alt=""></div>
-                            <div class="ht">베이컨 체다 해쉬브라운</div>
+                            <div class="ht">햄 앤 치즈 프렌치 토스트 세트</div>
                         </div>
                     </figure>
                     <figure>
                         <div class="img_box">
                             <img src="<?= G5_THEME_URL ?>/img/new_menu05_name.png" alt="">
                             <div class="menu_img"><img src="<?= G5_THEME_URL ?>/img/new_menu05_img.png" alt=""></div>
-                            <div class="ht">자몽에이드</div>
+                            <div class="ht">갈릭 베이컨 치즈 세트</div>
                         </div>
                     </figure>
                     <figure>
                         <div class="img_box">
                             <img src="<?= G5_THEME_URL ?>/img/new_menu06_name.png" alt="">
                             <div class="menu_img"><img src="<?= G5_THEME_URL ?>/img/new_menu06_img.png" alt=""></div>
-                            <div class="ht">치즈 불고기 길거리 토스트</div>
+                            <div class="ht">데리야끼 바베큐 세트</div>
                         </div>
                     </figure>
                 </div>
